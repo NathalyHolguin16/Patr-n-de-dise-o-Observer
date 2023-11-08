@@ -1,9 +1,9 @@
 import Producto from "./producto";
 
 export class Cliente {
-    private followedProducts: Producto[] = [];
-
     constructor(public name: string) {}
+
+    private followedProducts: Producto[] = [];
 
     followProduct(product: Producto) {
         this.followedProducts.push(product);

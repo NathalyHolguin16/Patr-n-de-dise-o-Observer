@@ -20,5 +20,3 @@ productoSubject2.addObserver(Cliente2);
 
 productoSubject1.setPrecio(37);
 productoSubject2.setPrecio(320);
-
-
